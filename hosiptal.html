@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Appointment Booking</title>
+</head>
+<body>
+
+    <h1>City Hospital</h1>
+    <h2>Appointment Booking Form</h2>
+<hr>
+    <form>
+        <label>Patient Full Name:</label><br>
+        <input type="text" required><br><br>
+        <label>Age:</label><br>
+        <input type="number" min="1" max="120" required><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" required> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other<br><br>
+        <label>Phone Number:</label><br>
+        <input type="tel" required><br><br>
+        <label>Email:</label><br>
+        <input type="email"><br><br>
+        <label>Select Department:</label><br>
+        <select required>
+            <option value="">--Select--</option>
+            <option>Cardiology</option>
+            <option>Neurology</option>
+            <option>Orthopedics</option>
+            <option>Pediatrics</option>
+            <option>Dermatology</option>
+        </select><br><br>
+        <label>Select Doctor:</label><br>
+        <select>
+            <option>Dr. Sharma</option>
+            <option>Dr. Rao</option>
+            <option>Dr. Mehta</option>
+        </select><br><br>
+        <label>Appointment Date:</label><br>
+        <input type="date" required><br><br>
+        <label>Appointment Time:</label><br>
+        <input type="time" required><br><br>
+        <label>Describe Symptoms:</label><br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+        <input type="submit" value="Book Appointment">
+        <input type="reset" value="Clear Form">
+    </form>
+    <hr>
+    <footer>
+        <p>© 2026 my Website</p>
+    </footer>
+</body>
+</html>
